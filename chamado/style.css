@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+section{
+    border: solid black 1px;
+    margin: 0 auto;
+    width: 250px;
+    height: auto;
+    shape-outside: inset(20px 5px 30px 10px);
+    background: lightgray;
+}
+
+header {
+    font-weight: bold;
+    background-color: #E8E7E5;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    font-weight: bold;
+    border: solid black 1px;
+    width: auto;
+    height: 800px;
+    background-image: url('/chamado/background.png') ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 50px;
+    text-align: center;
+    background-color:#FFFCCF;
+    
+}
+
+footer {
+    background-color: #E8E7E5;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+.button {
+    padding: 10px 20px;
+    padding-top: 5p;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
