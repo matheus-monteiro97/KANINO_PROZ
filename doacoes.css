@@ -1,0 +1,56 @@
+#kanino-logo {
+    height: 60px;
+    width: 60px;
+}
+
+nav, li {
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 20px;
+   
+}
+nav {
+    margin: auto;
+}
+
+
+.base-botao {
+    border: none;
+    background-color: #EAEAEA;
+    margin-top: 15px;
+}
+
+.base-botao:hover {
+    background-color: rgb(215, 215, 215);
+}
+
+.base-botao:active {
+    background-color: rgb(215, 215, 215);
+    
+}
+
+
+
+
+
+
+
+
+.campo-base {
+    width: 200px;
+    padding: 1px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 25px;
+   /* resize: vertical;*/
+}
+
+#campo-email {
+    margin-top: 23px;
+}
+
+.rodape-base {
+    display: inline-block;
+    margin-left: 4em;
+}
+
