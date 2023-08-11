@@ -14,6 +14,76 @@ header {
     text-align: center;
 }
 
+nav {
+    font-family: cooper;
+    font-size: 25px;
+    background-color: #FFFDD0;
+    color: #352419;
+    text-decoration: none;
+}
+
+nav a {
+    font-family: cooper;
+    font-size: 25px;
+    background-color: #FFFDD0;
+    color: #644630;
+    text-decoration: none;
+    border-radius: 10px;
+}   
+
+#promo, #doacao, #chamado{
+    padding: 10px 40px;
+    font-family: cooper;
+    font-size: 25px;
+    background-color: #FFFDD0;
+    color: #644630;
+    text-decoration: none;
+    background-size: 50px;
+    border-radius: 10px;
+}
+
+#blog, #loja, #faq {
+    padding: 10px 60px;
+    font-family: cooper;
+    font-size: 25px;
+    background-color: #FFFDD0;
+    color: #644630;
+    text-decoration: none;
+    background-size: 50px;
+    border-radius: 10px;
+}
+
+#cat{
+    padding: 10px 40px;
+    font-family: cooper;
+    font-size: 25px;
+    background-color: #644630;
+    color: #FFFDD0;
+    text-decoration: none;
+    background-size: 50px;
+    border-radius: 10px;
+}
+
+#promo:hover, #doacao:hover, #chamado:hover{
+    padding: 10px 40px;
+    font-family: cooper;
+    font-size: 25px;
+    background-color: #644630;
+    color: #FFFDD0;
+    background-size: 50px;
+    border-radius: 10px;
+}
+
+#blog:hover, #loja:hover, #faq:hover {
+    padding: 10px 60px;
+    font-family: cooper;
+    font-size: 25px;
+    background-color: #644630;
+    color: #FFFDD0;
+    background-size: 50px;
+    border-radius: 10px;
+}
+
 div{
     border: solid black 1px;
     margin: 0 auto;
