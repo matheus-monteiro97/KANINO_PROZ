@@ -11,6 +11,10 @@
     width: 60px;
 }
 
+header {
+    background-color: #FFFDD0;
+}
+
 nav, li {
     display: inline-block;
     font-size: 20px;
@@ -21,6 +25,9 @@ nav {
     margin: auto;
 }
 
+main {
+    background-color: #EAEAEA;
+}
 
 .base-botao {
     border: none;
@@ -51,7 +58,16 @@ nav {
 }
 
 .rodape-base {
+    background-color: #8B5A2B;
     display: inline-block;
     margin-left: 4em;
+}
+
+.letra-marrom {
+    color: #8B5A2B;
+}
+
+.letra-branca {
+    color: white;
 }
 
