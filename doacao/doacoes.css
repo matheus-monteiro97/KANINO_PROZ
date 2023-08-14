@@ -58,9 +58,12 @@ main {
 }
 
 .rodape-base {
-    background-color: #8B5A2B;
     display: inline-block;
     margin-left: 4em;
+}
+
+footer {
+    background-color: #8B5A2B;
 }
 
 .letra-marrom {
