@@ -13,6 +13,7 @@
 
 header {
     background-color: #FFFDD0;
+    height: 35px;
 }
 
 nav, li {
@@ -25,8 +26,13 @@ nav {
     margin: auto;
 }
 
-main {
+main  {
     background-color: #EAEAEA;
+ 
+}
+
+h1 {
+    text-align: center;
 }
 
 .base-botao {
@@ -74,3 +80,4 @@ footer {
     color: white;
 }
 
+/*<link rel="stylesheet" type="text/css" href="./doacoes.css">*/
