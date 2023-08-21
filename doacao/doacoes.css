@@ -52,7 +52,8 @@ form {
 }
 form {
     display: flex;
-    gap: 69px;
+    gap: 49px;
+    flex-wrap: wrap;
 }
 
 
@@ -60,8 +61,13 @@ form {
     margin-top: 1px;
 }
 
+#campo-telefone {
+    margin-bottom: 20px;
+}
+
+
 .espaco-campo {
-    margin-left: 25px;
+    margin-left: 65px;
 }
 
 footer {
