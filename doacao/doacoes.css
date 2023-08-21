@@ -5,34 +5,18 @@
 	margin: 0;
 	padding: 0;
 }
-
-.kanino-logo {
-    height: 60px;
-    width: 60px;
-}
-
 header {
-    background-color: #FFFDD0;
-    height: 35px;
+	height: 300px;
 }
 
-nav, li {
-    display: inline-block;
-    font-size: 20px;
-    padding-left: 20px;
-   
-}
-nav {
-    margin: auto;
+.search-box {
+    margin-left: 290px;
 }
 
-main  {
-    background-color: #EAEAEA;
- 
-}
-
-h1 {
-    text-align: center;
+#titulo-principal {
+    font-size: 65px;
+	margin-top: 20px;
+    margin-bottom: 65px;
 }
 
 .base-botao {
@@ -50,34 +34,36 @@ h1 {
     
 }
 
+form {
+	display: flex;
+	
+}
+
 .campo-base {
     width: 200px;
     padding: 1px;
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-bottom: 25px;
+	display: flex;
+    align-items: center;
+   
    /* resize: vertical;*/
 }
-
-#campo-email {
-    margin-top: 23px;
+form {
+    display: flex;
+    gap: 69px;
 }
 
-.rodape-base {
-    display: inline-block;
-    margin-left: 4em;
+
+#campo-email {
+    margin-top: 1px;
+}
+
+.espaco-campo {
+    margin-left: 25px;
 }
 
 footer {
-    background-color: #8B5A2B;
+    margin-top: 90px;
 }
-
-.letra-marrom {
-    color: #8B5A2B;
-}
-
-.letra-branca {
-    color: white;
-}
-
-/*<link rel="stylesheet" type="text/css" href="./doacoes.css">*/

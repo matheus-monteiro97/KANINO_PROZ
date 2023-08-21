@@ -3,6 +3,7 @@
     <head>
         
         <link rel="stylesheet" type="text/css" href="../css/estiloKanino.css">
+        <link rel="stylesheet" type="text/css" href="./doacoes.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Doações</title>
@@ -36,11 +37,11 @@
                 <div id="produtos"></div>
         </header>
         <main>
-            <h1>Quer fazer uma doação para apoiar o site?</h1>
-            <button id="botao-doar-pet" class="base-botao">
+            <h1 id="titulo-principal">Quer fazer uma doação para apoiar o site?</h1>
+            <button id="botao-doar-pet" class="base-botao, espaco-campo">
                 Doar Pet</button>
             <form class="base-formulario" id="form-doar-pet">
-                <div>
+                <div class="espaco-campo">
                     <label>Nome</label>
                     <input type="text" class="campo-base">
                 </div>
@@ -79,10 +80,10 @@
                     accept="image/*">
                 </div>
             </form>
-            <button id="botao-doar-dinheiro" class="base-botao">
+            <button id="botao-doar-dinheiro" class="base-botao, espaco-campo">
                 Doação em Dinheiro</button>
             <form>
-                <div>
+                <div class="espaco-campo">
                     <label>Nome completo</label>
                     <input class="campo-base" type="text">
                 </div>
@@ -93,10 +94,10 @@
                     </p>
                 </span>
             </form>
-            <button id="botao-doar-objetos" class="base-botao">
+            <button id="botao-doar-objetos" class="base-botao, espaco-campo">
                 Doar objetos</button>
             <form>
-                <div>
+                <div class="espaco-campo">
                     <label>Selecione o tipo de objeto que deseja doar</label>
                     <select>
                         <option>Casa de cachorro</option>
@@ -110,6 +111,7 @@
                         <option>Gaiola de passáro</option>
                         <option>Brinquedo</option>
                         <option>Aquário</option>
+                        <option>Outro tipo de objeto</option>
                     </select>
                 </div>
                 <div>
@@ -124,10 +126,10 @@
                     <input type="text" class="campo-base">
                 </div>
             </form>
-            <button id="botao-doar-racao" class="base-botao">
+            <button id="botao-doar-racao" class="base-botao, espaco-campo">
                 Doar ração</button>
             <form>
-                <div>
+                <div class="espaco-campo">
                     <label>Nome completo</label>
                     <input class="campo-base" type="text">
                 </div>
