@@ -30,7 +30,6 @@
   &nbsp;&nbsp;
   <img align="center" alt="icone-Python" height="60" src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg">
   &nbsp;&nbsp;
-  <img align="center" alt="icone-SQL" height="60" src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original.svg">
 </div>
 
 ---
