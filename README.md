@@ -3,7 +3,7 @@
 # Projeto Integrador Front-End <br> Portal Tech - Proz Educação 
 
 <div align="center">
-  <img src="./imagens/logo_realizacao.png" alt="Logo dos realizadores do curso" width="80%">
+  <img src="./imagens/logo_realizacao.png" alt="Logo dos realizadores do curso" width="50%">
 </div>
 
 ## Curso de Introdução à Programação Web <br> Turma 11 - Grupo 5 - Professor: Rand
