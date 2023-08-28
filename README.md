@@ -42,7 +42,7 @@
 
 ## Objetivo
 O objetivo da Pet Shop Kanino é incentivar a doação de alimentos e/ou objetos não utilizados, assim como doação de animais, adoção responsável de animais abandonados e/ou resgatados de maus tratos. Além de conscientizar o maximo possivel as pessoas sobre o combate aos maus tratos des animais.
-Esse projeto faz a ponte entre clinicas veterianrias e cidadões comuns, almém de promover a adoção e divulgação de produtos de Pet Shop e campanhas de adoção.
+Esse projeto faz a ponte entre clinicas veterianrias e cidadões comuns, além de promover a adoção e divulgação de produtos de Pet Shop.
 
 ### 6 Telas
 * Loja/Categorias/Promoções (Ariel) Tela designada para venda de produtos que seram vendidos no petshop.
