@@ -1,9 +1,9 @@
 ![Adote um amigo (Capa para Facebook) (1640 × 200 px)](./imagens/adoteUmAmigo.png)
 
-# Projeto Integrador Front-End <br> Portal Tech - Proz Educação <br> Idealizado Pela Parceria da AWS e Meta
+# Projeto Integrador Front-End <br> Portal Tech - Proz Educação 
 
 <div align="center">
-  <img src="img/logos/logo_realizacao.png" alt="Logo dos realizadores do curso" width="100%">
+  <img src="./imagens/logo_realizacao.png" alt="Logo dos realizadores do curso" width="100%">
 </div>
 
 ## Curso de Introdução à Programação Web <br> Turma 11 - Grupo 5 - Professor: Rand
