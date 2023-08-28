@@ -80,14 +80,6 @@ Você pode conferir como o site está ficando em [Site da KANINO](https://github
 | <img width="100" alt="Foto de Perfil de Sérgio" src="./imagens/sergio.jpg"> | `Sérgio Pereira` | Front-End <br>  | <a href="https://github.com/SergioPordeus"> <img height="30" alt="GitHub de Sergio" src="https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white"></a> | [![Github Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/) |
 | <img width="100" alt="Foto de Perfil do Wesley" src="img/perfil_equipe/perfil_wesley.jpeg"> | `Wesley` | Front-End | <a href="https://github.com/Wsalvarengadev"> <img height="30" alt="GitHub de Wesley" src="https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white"></a> | [![Github Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/) |
 
-## **Como Contribuir**
-
-* [Guia de Principais Funções dos Comandos do Git](markedown/como_contribuir_principais_comandos_git.md)
-
-* [Guia para a Equipe](markedown/como_contribuir_equipe.md)
-
-* [Guia para a Comunidade](markedown/como_contribuir_comunidade.md)
-
 
 ## Agradecimentos
 
@@ -96,6 +88,6 @@ Você pode conferir como o site está ficando em [Site da KANINO](https://github
 * AWS;
 * Meta;
 * Professor [Rand](https://github.com/RandMelville);
-* À cada membro do projeto pela dedicação;
+* Aos membros do projeto pela dedicação;
 
 ![Pet Amigo (Capa para Facebook) (1640 × 200 px)](./imagens/petAmigo.png)
