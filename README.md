@@ -63,7 +63,7 @@ Esse projeto faz a ponte entre clinicas veterianrias e cidadões comuns, almém 
 
 ### Link do SITE (projeto em construção)
 
-Você pode conferir como o site está ficando em [Site da KANINO](https://github.com/ArielVe/KANINO_PROZ/loja/tamplate.html)
+Você pode conferir como o site está ficando em [Site da KANINO](loja/tamplate.html)
 
 ## :handshake: **EQUIPE: Go Devs**
 
