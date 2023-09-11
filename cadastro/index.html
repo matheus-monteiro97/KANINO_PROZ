@@ -1,83 +1,88 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Cadastro</title>
-</head>
-<body>
-  <header>
-  <div>
-    <nav>
-        <a href="#" class="logo-tipo"></a>
-        <ul class="nav-list">
-        </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cadastro</title>
+  </head>
+  <body>
+        <nav class="logo-tipo">
+        <div class="image-logo">
+          <img src="./img/IMG-20230731-WA0039.png" alt="" srcset="">
+        </div>
+        </nav>
 
-      </nav>
-     </div>   
-    </header>     
-<main>
-  <div class="container">
-   
-    <h1 class="title">Cadastre-se na Kanino</h1>
-    <form class="form" action="#" method="post">
-      <div class="form-group">
-        <label for="name">Nome e sobrenome</label>
-        <input type="text" id="name" name="name" placeholder="Digite seu nome completo">
+      </div>  
+    <main>
+      <div class="container">
+        <h1 class="title">Crie sua conta</h1>
+        
+      <div class="radio">
+        <div class="radio1"></div>
+        <input id="radio1" type="radio">
+        <label for="radio1">Pessoa Fisica</label>
+        <input id="radio2" type="radio">
+        <label for="radio2">Pessoa Juridica</label>
       </div>
-      
-       <div class="form-group">
-        <label for="email">E-mail</label>
-        <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
-       </div>
+             
+        <div class="form-group">
+            <label for="name">Nome e sobrenome</label>
+            <input type="text" id="name" name="name" placeholder="Digite seu nome completo"/>
+          </div>
 
-       <div class="form-group">
-        <label for="phone">Celular</label>
-        <input type="tel" id="phone" name="phone" placeholder="(XX) XXXXX-XXXX">
-       </div>
-                    
-       <div class="form-group">
-        <label for="phone">Telefone(opicional)</label>
-        <input type="tel" id="phone" name="phone" placeholder="(XX) XXXXX-XXXX">
-       </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail"
+            />
+          </div>
 
-       <div class="form-group">
-        <label for="gender">Gênero</label>
-        <select id="gender" name="gender">
-          <option value="">Selecione</option>
-          <option value="Feminino">Feminino</option>
-          <option value="Masculino">Masculino</option>
-          <option value="Outro">Outro</option>
-          <option value="Prefiro não informar">Prefiro não informar</option>
-        </select>
-       </div>
+          <div class="form-group">
+            <label for="phone">Celular</label>
+            <input type="tel" id="phone" name="phone" placeholder="(XX) XXXXX-XXXX"
+            />
+          </div>
 
-       <div class="form-group">
-        <label for="name">Data de nascimento</label>
-        <input type="text" id="Data de nascimento" name="name" placeholder="Digite a data de nascimento">
+          <div class="form-group">
+            <label for="phone">Telefone(opcional)</label>
+            <input type="tel" id="phone" name="phone" placeholder="(XX) XXXXX-XXXX"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="gender">Sexo(opcional)</label>
+            <select id="gender" name="gender">
+              <option value="">Selecione</option>
+              <option value="Feminino">Feminino</option>
+              <option value="Masculino">Masculino</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="name">Data de nascimento</label>
+            <input type="text" id="Data de nascimento" name="name"
+              placeholder="Digite a data de nascimento"/>
+          </div>
+
+          <div class="form-group">
+            <label for="name">Cpf</label>
+            <input type="text" id="Cpf" name="name" placeholder="Digite seu cpf"/>
+          </div>
+
+          <div class="form-group">
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="password"           placeholder="Digite sua senha"/>
+          </div>
+
+          <div class="form-group">  
+            <label for="confirm-password">Confirme sua senha</label>
+            <input type="password" id="confirm-password" name="confirm-password"
+              placeholder="Digite sua senha novamente"/>
+          </div>
+
+          <button type="submit" class="button">Cadastrar</button>
+        </form>
       </div>
-
-       <div class="form-group">
-        <label for="name">Cpf</label>
-        <input type="text" id="Cpf" name="name" placeholder="Digite seu cpf">
-      </div>
-
-      <div class="form-group">
-        <label for="password">Senha</label>
-        <input type="password" id="password" name="password" placeholder="Digite sua senha">
-      </div>
-
-       <div class="form-group">
-        <label for="confirm-password">Confirme sua senha</label>
-        <input type="password" id="confirm-password" name="confirm-password" placeholder="Digite sua senha novamente">
-       </div>
-
-       <button type="submit" class="button">Cadastrar</button>
-
-    </form>
-
-  </div>
-</main>   
-</body>
+    </main>
+  </body>
 </html>
