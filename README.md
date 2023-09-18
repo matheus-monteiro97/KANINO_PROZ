@@ -1,4 +1,4 @@
-![Adote um amigo (Capa para Facebook) (1640 × 200 px)](./imagens/adoteUmAmigo.png)
+![Adote um amigo (Capa para Facebook) (1640 × 500 px)](./imagens/adoteUmAmigo.png)
 
 # Projeto Integrador Front-End <br> Portal Tech - Proz Educação 
 
