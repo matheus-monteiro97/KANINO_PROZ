@@ -41,11 +41,11 @@
 # Briefing
 
 ## Objetivo
-O objetivo da Pet Shop Kanino é incentivar a doação de alimentos e/ou objetos não utilizados, assim como doação de animais, adoção responsável de animais abandonados e/ou resgatados de maus tratos. Além de conscientizar o maximo possivel as pessoas sobre o combate aos maus tratos des animais.
+O objetivo da Kanino é incentivar a doação de alimentos e/ou objetos não utilizados, assim como doação de animais, adoção responsável de animais abandonados e/ou resgatados de maus tratos. Além de conscientizar o maximo possivel as pessoas sobre o combate aos maus tratos des animais.
 Esse projeto faz a ponte entre clinicas veterianrias e cidadões comuns, além de promover a adoção e divulgação de produtos de Pet Shop.
 
 ### 6 Telas
-* Loja/Categorias/Promoções (Ariel) Tela designada para venda de produtos que seram vendidos no petshop.
+* Home (Ariel) Tela designada para exibição de animais para adoção.
 
 * Doações (Jamile) Tela desiginada para realização de doação (Dinheiro, objetos, animais)
 
@@ -68,7 +68,7 @@ Você pode conferir como o site está ficando em [Site da KANINO](https://github
 ## :handshake: **EQUIPE: Go Devs**
 
 <div>
-  <img src="./imagem/kaninologo.png" alt="Logo Projeto" width="130">
+  <img src="./imagens/kaninologo.png" alt="Logo Projeto" width="130">
 </div>
 
 | Perfil | Nome | Função | Github | Linkedin |
