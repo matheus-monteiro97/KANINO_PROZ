@@ -190,16 +190,19 @@ footer {
     max-height: 300px; 
     background-color: #f0f0f0; 
     text-align: center; 
+    padding: 1% 0;
 }
 
 .banner img {
-    max-width: 50%; 
-    max-height: 50%; 
+    width: 100%;
+    max-width: 70%; 
+    max-height: 70%; 
+    position: relative;
 }
 
 .valores, .quem, .missao  {
     width: auto;
-    padding: 5%;
+    padding: 2%;
     max-width: 100%;
 }
 
@@ -213,18 +216,15 @@ footer {
 /* Estilos para o carrossel de depoimentos */
 .client-name {
     margin-top: 10px;
+    text-align: center;
     font-weight: bold;
-}
-
-.carousel {
-    border-radius: 2%;
 }
 
 /* CSS pagina de cadastro */
 main {
     font-family: Arial, sans-serif;
     background-color: #F2F2F2;
-    padding: 30px;
+    padding: 0 30px 30px 30px;
    
 }
 
