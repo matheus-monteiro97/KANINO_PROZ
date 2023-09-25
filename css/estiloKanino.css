@@ -7,166 +7,146 @@
 }
 
 body{
-    border-color: #BEBEBE;
-    background-color: #BEBEBE;
+    border-color: #F2F2F2;
+    background-color: #F2F2F2;
     width: 100%;
     height: 100%;
 }
 
+.corpo {
+    width: auto;
+    display: block;
+}
+
 #cor1{
-    width: 100%;
-    height: 220px;
+    height: 1%;
     border-style: solid;
-    border-color: #FFFDD0;
-    background-color: #FFFDD0;
+    border-color: #FFD994;
+    background-color: #FFD994;
 }
 
 nav {
+    display: flex;
     font-family: cooper;
-    font-size: 25px;
-    background-color: #FFFDD0;
-    color: #352419;
-    text-decoration: none;
+    font-size: 150%;
+    background-color: #FFD994;
+    color: #2B4E96;
+    text-decoration:none;
 }
 
 nav a {
+    display: flex;
     font-family: cooper;
-    font-size: 25px;
-    background-color: #FFFDD0;
-    color: #644630;
+    font-size: 150%;
+    background-color: #FFD994;
+    color: #2B4E96;
     text-decoration: none;
-    border-radius: 10px;
+    border-radius: 10%;
 }   
 
-#promo, #doacao, #chamado{
-    padding: 10px 40px;
+#home, #depoimento, #busca, #duvida{
+    display: flex;
+    padding: 1% 4%;
     font-family: cooper;
-    font-size: 25px;
-    background-color: #FFFDD0;
-    color: #644630;
+    font-size: 100%;
+    background-color: #FFD994;
+    color: #2B4E96;
     text-decoration: none;
     background-size: 50px;
     border-radius: 10px;
+    margin-left: 6%;
 }
 
-#blog, #loja, #faq {
-    padding: 10px 60px;
+/*#blog, #loja, #faq {
+    display: flex;
+    padding: 1% 4%;
     font-family: cooper;
-    font-size: 25px;
-    background-color: #FFFDD0;
-    color: #644630;
+    font-size: 100%;
+    background-color: #FFD994;
+    color: #2B4E96;
     text-decoration: none;
-    background-size: 50px;
-    border-radius: 10px;
+    background-size: 5%;
+    border-radius: 1%;
 }
+*/
 
-#cat{
-    padding: 10px 40px;
+#home:hover, #depoimento:hover, #busca:hover, #duvida:hover{
+    display: flex;
+    padding: 1% 4%;
     font-family: cooper;
-    font-size: 25px;
-    background-color: #644630;
-    color: #FFFDD0;
-    text-decoration: none;
-    background-size: 50px;
-    border-radius: 10px;
+    font-size: 100%;
+    background-color: #FFD994;
+    color: #2B4E96;
+    text-decoration: underline;
+    background-size: 5%;
+    border-radius: 1%;
+    margin-left: 6%;
 }
 
-#promo:hover, #doacao:hover, #chamado:hover{
-    padding: 10px 40px;
-    font-family: cooper;
-    font-size: 25px;
-    background-color: #644630;
-    color: #FFFDD0;
-    background-size: 50px;
-    border-radius: 10px;
-}
-
+/*
 #blog:hover, #loja:hover, #faq:hover {
-    padding: 10px 60px;
+    display: flex;
+    padding: 1% 4%;
     font-family: cooper;
-    font-size: 25px;
-    background-color: #644630;
-    color: #FFFDD0;
-    background-size: 50px;
-    border-radius: 10px;
+    font-size: 100%;
+    background-color: #FFD994;
+    color: #2B4E96;
+    text-decoration: underline;
+    background-size: 5%;
+    border-radius: 1%;
 }
+*/
 
 h1{
     font-family: cooper;
-	color: #FFEA00;
-    font-weight: 900;
-    font-size: 70px;
+	color: #2B4E96;
+    font-size: 150%;
     line-height: 48pt;
-    width: 99%;
+    block-size: 100%;
+    width: 100%;
 	text-align: center;
-    text-shadow: 2px 2px #8B5750;
-    position: relative;
+    position: static;
 }
 
 h2{
     font-family: 'black', cooper;
-    color: #8B5750;
-    font-weight: 900;
-    font-size: 25px;
+    color: #2B4E96;
+    font-size: 25%;
     line-height: 25pt;
-    width: 99%;
+    width: 50%;
     padding-bottom: 15px;
     padding-top: 20px;
     text-align: center;
-    text-shadow: 1px 1px #644630;
+    text-shadow: 1px 1px #2B4E96;
 	position: absolute;
 }
 
 #msg{
     font-family: Montserrat;
-    color: #8B5750;
-    font-weight: 90%;
+    color: #2B4E96;
     font-size: 25px;
     line-height: 25pt;
-    width: 60%;
-    padding: 1% 15%;
+    padding-top: 2%;
+    margin-left: 30%;
     text-align: center;
-	position: absolute;
+	display: inline-block;
 }
 
 #logo{
-	width: 15%;
+	display: flex;
+    width: 10%;
 	float: left;
 	position: relative;
-		margin: -16% 1%;
+		margin: -10% 1%;
 }
 
-#produtos {
-    display: inline-flex;
-    text-align: center;
-    padding: 200px 80px;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.pet-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.pet-card {
-    width: 30%;
-    margin-bottom: 20px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-}
 
 .search-container {
     text-align: center;
-    padding: 5% 5%;
+    padding: 1% 1%;
 }
 .search-box {
-    padding: 1% 2%;
+    padding: 1% 1%;
     font-family: Montserrat;
     width: 50%;
     border: 1px solid #989796;
@@ -176,59 +156,156 @@ h2{
 .search-button {
     padding: 1% 2%;
     font-family: Montserrat;
-    background-color: #644630;
+    background-color: #2B4E96;
     color: #FFFDD0;
     border: none;
     border-radius: 10px;
     font-size: 20px;
 }
 
-#footer, .rodape-base {
-    display: inline-block;
-    margin-left: 4px;
-    text-align: center;
-    padding: 10px 100px;
-}
-
-#entrar, #cadastrar{
-    position: right;
+/* css login */
+#entrar{
+    display: inline-flexbox;
+    margin-left: 25%;
 }
 
 /* Estilo para o rodapé */
 footer {
-    background-color: #644630;
-    color: #FFFDD0;
-    padding: 20px 20px;
+    width: auto;
+    background-color: #FFD994;  
+}
+
+#sobre, #siga, #horario {
+    width: 30%;
+    color: #2B4E96;
+    text-align: center;
+    margin: 1% 0 1% 3%;
+    display: inline-block;
+}
+
+/* CSS pagina home */
+
+.banner {
+    width: 100%; 
+    max-height: 300px; 
+    background-color: #f0f0f0; 
+    text-align: center; 
+}
+
+.banner img {
+    max-width: 50%; 
+    max-height: 50%; 
+}
+
+.valores, .quem, .missao  {
+    width: auto;
+    padding: 5%;
+    max-width: 100%;
+}
+
+.valores p, .quem p, .missao p  {
+    width: auto;
+    padding: 1%;
+    max-width: 100%;
     text-align: center;
 }
-  
- /* Estilo para os links no rodapé */
-footer a {
-    color: #FFFDD0;
-    text-decoration: none;
-    margin: 0 10px;
-}
-  
-/* Estilo para os links no rodapé quando são hover */
-footer a:hover {
-    text-decoration: underline;
+
+/* Estilos para o carrossel de depoimentos */
+.client-name {
+    margin-top: 10px;
+    font-weight: bold;
 }
 
-.campo-base {
-    width: 200px;
-    padding: 1px;
+.carousel {
+    border-radius: 2%;
+}
+
+/* CSS pagina de cadastro */
+main {
+    font-family: Arial, sans-serif;
+    background-color: #F2F2F2;
+    padding: 30px;
+   
+}
+
+.container {
+    width: 350px;
+    margin: 0 auto;
+    background-color: white;
     border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-bottom: 25px;
-   /* resize: vertical;*/
+    padding: 20px;
+    border-radius: 0.5rem;
+    
 }
 
-#campo-email {
-    margin-top: 23px;
+.title {
+    font-size: 40px;
+    margin: auto;
+    font-weight: 700;
+    margin-bottom: 1.9rem;
 }
 
-.rodape-base {
-    display: inline-block;
-    margin-left: 4px;
+.form-group {
+    margin-bottom: 10px;
 }
+
+.form-group label {
+    font-size: .77rem;
+    margin-bottom: .14rem;
+    color: #363636;
+    display: block;
+    font-weight: 600;
+}
+
+.form-group input {
+    display: block;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.form-group select {
+    display: block;
+    width: 362px;
+    height: 30px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.form-group textarea {
+    display: block;
+    width: 100%;
+    height: 100px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.button {
+    display: block;
+    width: 362px;
+    height: 40px;
+    background-color: #0ac723;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.radio {
+    display: flex;
+    justify-content:space-between;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 1.05rem;
+}
+
+
+
+/* CSS pagina de login */
+
+/* CSS pagina de duvidas */
+
+/* CSS pagina de busca vet */
+
 

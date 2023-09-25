@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/kaninologo.png" type="image/x-icon">
+    <title>Kanino</title>
+    <link rel="stylesheet" href="../css/estiloKanino.css">
+</head>
+<body>
+    <header>
+        <div id="cor1">
+        <!--<h1>KANINO</h1>-->
+          <p id="msg">O lugar perfeito para os seus amigos peludos!</p>
+          <div class="search-container">
+            <form action="/pesquisar" method="GET">
+              <input type="text" class="search-box" name="q" placeholder="Encontre o que você procura...">
+              <button type="submit" class="search-button">Pesquisar</button>
+            </form>
+            <a id="entrar" href="../cadastro/index.html">Entrar</a>
+            <a id="cadastrar" href="../cadastro/index.html">Cadastrar</a>
+          </div>
+        </div>
+        <div id="img">
+          <a href="../index.html"><img id="logo" src="../imagens/kaninologo.png"></a>
+        </div>
+        <nav> 
+            <a id="cat" href="../index.html">Categorias</a>
+            <a id="loja" href="../index.html">Loja</a>
+            <a id="promo" href="../index.html">Promoções</a>
+            <a id="doacao" href="/doacao/tamplate.html">Doação</a>
+            <a id="chamado" href="/chamado/template.html">Chamado</a>
+            <a id="blog" href="/blog/tamplate.html">Blog</a>
+            <a id="faq" href="/FAQ/tamplate.html">FAQ</a>
+        </nav>
+      </header>
+
+    <main>
+        <div>
+        <h2>Atendimento</h2>
+        <p>Selecione as opções abaixo:</p>
+        </div>
+        <button class="button" onclick="alert('Você clicou no Botão 1!')">Fazer uma Pegunta</button>
+        <button class="button" onclick="alert('Você clicou no Botão 2!')">Responder a Pergunta</button>
+        <button class="button" onclick="alert('Você clicou no Botão 3!')">Sugestões de atendimento</button>
+    </main>
+
+    <footer>
+        <div class="rodape-base" id="rodape-primeiro">
+          <h3 class="letra-branca">Sobre a Kanino</h3>
+          <a class="letra-branca">Central de atendimento</a>
+          <p class="letra-branca">
+            (xx)xxxx-xxxx / (xx)xxxxx-xxxx<br>
+            Problemas para visualizar
+          </p>
+        </div>
+        <div class="rodape-base" id="redes-sociais">
+          <p class="letra-branca">
+            Siga a Kanino nas redes sociais<br>
+            @Kanino_Oficial
+          </p>
+          <address class="letra-branca">
+            Endereço da empresa - endereço ficticio
+          </address>
+        </div>
+        <div class="rodape-base">
+          <h3>Horário de funcionamento</h3>
+          <p>
+            Seg a Sex 06h as 22h<br>
+            Entregas em horário comercial<br>
+            Prazo de atendimento dos chamados<br>
+            48h<br>
+          </p>
+        </div>
+      </footer>
+</body>
+</html>

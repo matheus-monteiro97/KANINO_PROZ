@@ -4,7 +4,9 @@
   <link rel="stylesheet" type="text/css" href="/css/estiloKanino.css">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="shortcut icon" href="../imagens/logo.ico" type="image/x-icon">
+<link rel="shortcut icon" href="./imagens/kaninologo.png" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="./libs/slick-1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="./libs/slick-1.8.1/slick/slick-theme.css"/>
 <title>KANINO</title>
 </head>
 <body>
@@ -12,56 +14,87 @@
     <div id="cor1">
     <!--<h1>KANINO</h1>-->
       <p id="msg">O lugar perfeito para os seus amigos peludos!</p>
+      <a id="entrar" href="/cadastro/index.html">Entrar</a>
+      <a>/</a>                  
+      <a id="cadastrar" href="/cadastro/index.html">Cadastrar</a>
       <div class="search-container">
         <form action="/pesquisar" method="GET">
-          <input type="text" class="search-box" name="q" placeholder="Encontre o que você procura...">
+          <input type="text" class="search-box" name="q" placeholder="Localize o Veterinario mais proximo...">
           <button type="submit" class="search-button">Pesquisar</button>
         </form>
-        <a id="entrar" href="/cadastro/index.html">Entrar</a>
-        <a id="cadastrar" href="/cadastro/index.html">Cadastrar</a>
       </div>
     </div>
     <div id="img">
-      <a href="/loja/tamplate.html"><img id="logo" src="/imagem/kaninologo.png"></a>
+      <a href="./index.html"><img id="logo" src="./imagens/kaninologo.png"></a>
     </div>
     <nav> 
-        <a id="cat" href="/loja/tamplate.html">Categorias</a>
-        <a id="loja" href="/loja/tamplate.html">Loja</a>
-        <a id="promo" href="/loja/tamplate.html">Promoções</a>
-        <a id="doacao" href="/doacao/tamplate.html">Doação</a>
-        <a id="chamado" href="/chamado/template.html">Chamado</a>
-        <a id="blog" href="/blog/tamplate.html">Blog</a>
-        <a id="faq" href="/FAQ/tamplate.html">FAQ</a>
+        <a id="home" href="./index.html">Home</a>
+        <a id="depoimento" href="./index.html">Depoimentos</a>
+        <a id="busca" href="./index.html">Veterinarios</a>
+        <a id="duvida" href="/doacao/tamplate.html">Duvidas</a>
     </nav>
-    <div id="produtos"></div>
   </header>
+  <main class="corpo">
+    <div class="banner">
+      <img src="./imagens/petAmigo.png" alt="Banner convite">
+    </div>
+    <div class="quem">
+      <h1>Quem Somos</h1>
+      <p>"Texto quem somos"</p>
+    </div>
+    <div class="missao">
+      <h1>Missão</h1>
+      <p>"Texto missão</p>
+    </div>
+    <div class="valores">
+      <h1>Valores</h1>
+      <p>"Texto valores"</p>
+    </div>
+    <div><h1>Depoimentos</h1></div>
+    <div class="carousel">
+    <div class="testimonial">
+      <p>"Meu cão adora os serviços do Pet Shop. Eles são incríveis!"</p>
+      <p class="client-name">- João da Silva</p>
+    </div>
+    <div class="testimonial">
+      <p>"O atendimento no Pet Shop é excepcional. Sempre saio satisfeito."</p>
+      <p class="client-name">- Maria Rodrigues</p>
+    </div>
+    <div class="testimonial">
+      <p>"Encontrei tudo o que precisava para o meu gato no Pet Shop. Recomendo!"</p>
+      <p class="client-name">- André Santos</p>
+    </div>
+     </div>
+  </main>
   <footer>
-    <div class="rodape-base" id="rodape-primeiro">
-      <h3 class="letra-branca">Sobre a Kanino</h3>
-      <a class="letra-branca">Central de atendimento</a>
-      <p class="letra-branca">
+    <div id="sobre">
+      <h3>Sobre a Kanino</h3>
+      <a>Central de atendimento</a>
+      <p>
         (xx)xxxx-xxxx / (xx)xxxxx-xxxx<br>
         Problemas para visualizar
       </p>
     </div>
-    <div class="rodape-base" id="redes-sociais">
-      <p class="letra-branca">
+    <div id="siga">
+      <p>
         Siga a Kanino nas redes sociais<br>
         @Kanino_Oficial
       </p>
-      <address class="letra-branca">
+      <address>
         Endereço da empresa - endereço ficticio
       </address>
     </div>
-    <div class="rodape-base">
+    <div id="horario">
       <h3>Horário de funcionamento</h3>
       <p>
         Seg a Sex 06h as 22h<br>
         Entregas em horário comercial<br>
-        Prazo de atendimento dos chamados<br>
-        48h<br>
+        Prazo de atendimento dos chamados 48h<br>
       </p>
     </div>
   </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="./libs/slick-1.8.1/slick/slick.min.js"></script>
+  <script type="text/javascript" src="./javaScript/script.js"></script>
 </body>
 </html>
