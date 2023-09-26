@@ -1,13 +1,17 @@
-![Adote um amigo (Capa para Facebook) (1640 × 200 px)](./imagens/adoteUmAmigo.png)
+# Projeto Integrador <br> Curso de Introdução à Programação com foco em Front-End <br> Proz Educação - Portal Tech
 
-# Projeto Integrador Front-End <br> Portal Tech - Proz Educação 
+### Turma: 11 - Grupo: A - Professor: Randerson Melville.
+
+**O Portal Tech é um programa criado pela AWS e pela Meta para abrir um portal de acesso ao conhecimento sobre algumas das tecnologias que mais crescem no mundo: computação em nuvem, metaverso e marketing digital.** 
 
 <div align="center">
-  <img src="./imagens/logo_realizacao.png" alt="Logo dos realizadores do curso" width="80%">
+  <img alt="proz" height="180" src="./imagens/img-proz.png">
+  <img alt="portalTech" height="100" src="./imagens/img-portalTech.png">
+  <img alt="meta" height="180" src="./imagens/img-meta.png">
+  <img alt="aws" height="180" src="./imagens/img-aws.png">
 </div>
 
-## Curso de Introdução à Programação Web <br> Turma 11 - Grupo 5 - Professor: Rand
-### Repositório com os arquivos criados durante o projeto Integrador
+### Este repositório contém arquivos criados com a finalidade de cumprimento do Projeto de Conclusão de Curso.
 
 ---
 
@@ -28,7 +32,6 @@
   &nbsp;&nbsp;
   <img align="center" alt="icone-JS" height="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   &nbsp;&nbsp;
-  <img align="center" alt="icone-Python" height="60" src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg">
   &nbsp;&nbsp;
 </div>
 
@@ -36,58 +39,64 @@
 
 ## **Nome do Site:** 🐶 Kanino 🐱
 
+<div align = "center">
+  <img alt="capa" width="600" src="./imagens/adoteUmAmigo.png">
+</div>
+
 ---
 
-# Briefing
+# Informações:
 
 ## Objetivo
 O objetivo da Kanino é incentivar a doação de alimentos e/ou objetos não utilizados, assim como doação de animais, adoção responsável de animais abandonados e/ou resgatados de maus tratos. Além de conscientizar o maximo possivel as pessoas sobre o combate aos maus tratos des animais.
 Esse projeto faz a ponte entre clinicas veterianrias e cidadões comuns, além de promover a adoção e divulgação de produtos de Pet Shop.
 
 ### 6 Telas
-* Home (Ariel) Tela designada para exibição de animais para adoção.
+* Home: Depoimentos de usuários, Sobre Nós, Missão e Valores.
 
-* Doações (Jamile) Tela desiginada para realização de doação (Dinheiro, objetos, animais)
+* Login: Acesso de usuários, veterinários e ONG's ao site; além de possibilidade de recuperação de senha. 
 
-* Chamado (Wesley) Tela designada para abertura de chamado para receber ajuda, referente a castração, ajuda com ração e etc.
+* Cadastro: Cadastro de usuários, veterinários e ONG's.
 
-* Blog (Sergio) Tela designada para esclarecimento de duvidas de tutores.
+* Dúvidas: Envio de possíveis dúvidas pelo usuário para serem respondidas por veterinários ou ONG's. 
 
-* FAQ (Jennifer) Tela designada para esclarecimento de duvidas gerais.
+* Resultados: Resultado de buscas dentro do site sobre veterinários e ONG's.
 
-* Entrar/Cadastras (Douglas) Tela de cadastro, login de pessoas fisicas e veterinarios parceiros
+* Depoimentos: Escrita de depoimentos sobre o site, veterinários ou ONG's. 
 
 ### Necessidades do visitante (Público Alvo):
-* Pais de Pets que querem adotar cachorro ou gato
-* Comprar produtos para estes pets
+* Pais de Pets que querem adotar cachorro ou gato.
+* Pessoas que desejem contribuir com as ONG's parceiras.
+* Veterinários que desejam realizar consultas voluntárias.
+* ONG's que desejam receber doações. 
 
 ### Link do SITE (projeto em construção)
 
 Você pode conferir como o site está ficando em [Site da KANINO](https://github.com/ArielVe/KANINO_PROZ/)
 
-## :handshake: **EQUIPE: Go Devs**
-
-<div>
-  <img src="./imagens/kaninologo.png" alt="Logo Projeto" width="130">
-</div>
+## Equipe de desenvolvedores: <img src="./imagens/kaninologo.png" alt="Logo Projeto" height="80">
 
 | Perfil | Nome | Função | Github | Linkedin |
 | ---------------- | ----- | --------- | --------- | --------- |
 | <img width="100" alt="Foto de Perfil da Ariel" src="./imagens/ariel.jfif"> | `Ariel Dantas` | Scrum Master <br> Front-End | <a href="https://github.com/ArielVe/"> <img height="30" alt="GitHub da Ariel" src="https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white"></a> | [![Github Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arielvelascoalves/) |
 | <img width="100" alt="Foto de Perfil da Jamile" src="./imagens/jamile.jpg"> | `Jamile Santos` | Front-End | <a href="https://github.com/jamilee11"> <img height="30" alt="GitHub do Jamile" src="https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white"></a> | [![Github Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jamile-santos-b82548235/) |
 | <img width="100" alt="Foto de Perfil do Douglas" src="./imagens/douglas.jpg"> | `Douglas Quintanilha` | Front-End | <a href="https://github.com/dgquintanilha"> <img height="30" alt="GitHub de Douglas" src="https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white"></a> | [![Github Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/douglas-quintanilha-19992161/) |
-| <img width="100" alt="Foto de Perfil do Matheus" src="./imagens/Matheus.jpg"> | `Matheus` | Front-End | <a href="https://github.com/martheus"> <img height="30" alt="GitHub de Matheus" src="https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white"></a> | [![Github Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/) |
+| <img width="100" alt="Foto de Perfil do Matheus" src="./imagens/Matheus.jpg"> | `Matheus Monteiro` | Front-End | <a href="https://github.com/martheus"> <img height="30" alt="GitHub de Matheus" src="https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white"></a> | [![Github Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/) |
 | <img width="100" alt="Foto de Perfil de Sérgio" src="./imagens/sergio.jpg"> | `Sérgio Pereira` | Front-End <br>  | <a href="https://github.com/SergioPordeus"> <img height="30" alt="GitHub de Sergio" src="https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white"></a> | [![Github Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/) |
 | <img width="100" alt="Foto de Perfil do Wesley" src="./imagens/Wesley.jpg"> | `Wesley Alvarenga` | Front-End | <a href="https://github.com/Wsalvarengadev"> <img height="30" alt="GitHub de Wesley" src="https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white"></a> | [![Github Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/) |
 
 
-## Agradecimentos
+### Agradecimentos:
+* [Proz - Educação](https://prozeducacao.com.br/);
 
-* Proz Tecnologia;
-* Portal Tech;
-* AWS;
-* Meta;
-* Professor [Rand](https://github.com/RandMelville);
+* [Portal Tech](https://www.portaltechs.com/);
+  
+* [AWS](https://aws.amazon.com/pt/?nc2=h_lg);
+
+* [META](https://about.meta.com/br/);
+
+* [Professor Rand](https://github.com/RandMelville);
+  
 * Aos membros do projeto pela dedicação;
 
 ![Pet Amigo (Capa para Facebook) (1640 × 200 px)](./imagens/petAmigo.png)
