@@ -48,8 +48,9 @@
 # Informações:
 
 ## Objetivo
-O objetivo da Kanino é incentivar a doação de alimentos e/ou objetos não utilizados, assim como doação de animais, adoção responsável de animais abandonados e/ou resgatados de maus tratos. Além de conscientizar o maximo possivel as pessoas sobre o combate aos maus tratos des animais.
-Esse projeto faz a ponte entre clinicas veterianrias e cidadões comuns, além de promover a adoção e divulgação de produtos de Pet Shop.
+A Kanino tem como propósito incentivar seu público a agir com espírito solidário, promovendo a doação de recursos a ONG's que atuam no cuidado com animais, além disso,
+buscamos conscientizar nossos usuários sobre a importância do resgate e adoção responsável de animais abandonados ou que foram vítimas de maus tratos. Também temos como missão
+fornecer suporte ao público que ama o seu PET, servindo como ponte para veterinários ou clínicas voluntárias que prestam consultas gratuitas.
 
 ### 6 Telas
 * Home: Depoimentos de usuários, Sobre Nós, Missão e Valores.
