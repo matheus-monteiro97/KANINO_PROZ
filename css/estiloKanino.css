@@ -362,4 +362,81 @@ main {
 
 /* CSS pagina de busca vet */
 
+#containerDuv {
+    margin: 20px auto;
+    width: auto;
+    text-align: center;
+    
+}
+#corpoDuv {
+    height: 100vh;
+    width: auto;
+}
+#campoPergunta {
+    width: 100vh;
+    text-align: left;
+}
+#btnDuv1 {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #2B4E96;
+    color: #FFD994;
+    border-style: solid;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#perguntaInput {
+    padding-bottom: 20px;
+    width: 100vh;
+    font-size: 20px;
 
+}
+#btnDuv2 {
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #2B4E96;
+    color: #FFD994;
+    border-style: solid;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#btnDuv3 {
+    margin: 10px auto;
+    padding: 5px;
+    background-color: #2B4E96;
+    color: #FFD994;
+    border-style: solid;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#btnDuv4 {
+    margin: 10px auto;
+    padding: 5px;
+    background-color: #2B4E96;
+    color: #FFD994;
+    border-style: solid;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.pergunta {
+    margin-top: 10px;
+    text-align: left;
+    border: 1px solid #2B4E96;
+    padding: 10px;
+}
+.resposta {
+    display: none;
+    padding: 10px;
+
+}
+#blog {
+    padding: 5px;
+    border-style: none;
+    
+}
