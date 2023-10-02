@@ -6,7 +6,7 @@
     <link rel="shortcut icon" href="../imagens/kaninologo.png" type="image/x-icon">
     <title>Kanino</title>
     <link rel="stylesheet" href="../css/estiloKanino.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
   <header>
@@ -36,8 +36,7 @@
     <div id="containerDuv">
       <button onclick="exibirCampoPergunta()" id="btnDuv1">Fazer uma pergunta</button>
       <div id="campoPergunta" style="display: none;">
-      <!--<h1>Faça uma pergunta:</h1>-->
-          <input type="text" id="perguntaInput" onkeydown="if (event.key === 'Enter') adicionarPergunta()">
+          <input type="text" id="perguntaInput" placeholder="Faça sua pergunta..." onkeydown="if (event.key === 'Enter') adicionarPergunta()">
           <button onclick="adicionarPergunta()" id="btnDuv2">Perguntar</button>
       </div>
       <div id="blog"></div>

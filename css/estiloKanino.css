@@ -433,7 +433,11 @@ main {
 .resposta {
     display: none;
     padding: 10px;
+    margin-top: 10px;
 
+}
+.espaco-resposta {
+    margin-top: 10px;
 }
 #blog {
     padding: 5px;
