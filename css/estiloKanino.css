@@ -368,6 +368,39 @@ main {
 
 /* CSS pagina de login */
 
+.div-login {
+    background-color: #2B4E96;
+    border-radius: 15px;
+    width: 50%;
+    padding: 4%;
+    margin: 20px auto;
+    color: white;
+    align-items: center;
+}
+
+.div-login a {
+    color: white;
+}
+.form-login {
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-login input {
+    border-radius: 10px;
+    width: 250px;
+    height: 35px;
+    box-shadow: none;
+}
+
+.div-login button {
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #FFD994;
+}
+
 /* CSS pagina de duvidas */
 
 /* CSS pagina de busca vet */

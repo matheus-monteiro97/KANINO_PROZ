@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/kaninologo.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="../css/estiloKanino.css">
+    <title>Recuperação de Senha</title>
+    <script src="recuperar.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="cor1">
+        <!--<h1>KANINO</h1>-->
+          <p id="msg">O lugar perfeito para os seus amigos peludos!</p>
+          <a id="entrar" href="/cadastro/index.html">Entrar</a>
+          <a>/</a>                  
+          <a id="cadastrar" href="/cadastro/index.html">Cadastrar</a>
+          <div class="search-container">
+            <form action="/pesquisar" method="GET">
+              <input type="text" class="search-box" name="q" placeholder="Localize o Veterinario mais proximo...">
+              <button type="submit" class="search-button">Pesquisar</button>
+            </form>
+          </div>
+        </div>
+        <div id="img">
+          <a href="./index.html"><img id="logo" src="../imagens/kaninologo.png"></a>
+        </div>
+        <nav> 
+            <a id="home" href="./index.html">Home</a>
+            <a id="depoimento" href="./depoimentos/depoimentos.html">Depoimentos</a>
+            <a id="busca" href="./index.html">Veterinarios</a>
+            <a id="duvida" href="./duvidas/duvidas.html">Duvidas</a>
+        </nav>
+      </header>
+
+      <main>
+
+        <div class="div-login">
+            <form action="" class="form-login">
+                <label for="email"><strong>E-mail</strong></label><br>
+                <input type="email" id="email" name="email" placeholder="  Digite seu e-mail">
+                <br>
+                <br>
+                <label for="password"><strong>Digite sua nova senha</strong></label><br>
+                <input type="password" id="password" name="password" placeholder="  Digite sua nova senha">
+                <br>
+                <br>
+                <label for="password"> <strong>Confirme sua nova senha</strong></label><br>
+                <input type="password" id="password2" name="password2" placeholder="  Confirme sua nova senha">
+                <br>
+            </form>
+            <br>
+            <button type="submit" id="buttom-rec">Confirmar</button>
+        </div>
+      </main>
+
+      <footer>
+        <div id="sobre">
+          <h3>Sobre a Kanino</h3>
+          <a>Central de atendimento</a>
+          <p>
+            (xx)xxxx-xxxx / (xx)xxxxx-xxxx<br>
+            Problemas para visualizar
+          </p>
+        </div>
+        <div id="siga">
+          <p>
+            Siga a Kanino nas redes sociais<br>
+            @Kanino_Oficial
+          </p>
+          <address>
+            Endereço da empresa - endereço ficticio
+          </address>
+        </div>
+        <div id="horario">
+          <h3>Horário de funcionamento</h3>
+          <p>
+            Seg a Sex 06h as 22h<br>
+            Entregas em horário comercial<br>
+            Prazo de atendimento dos chamados 48h<br>
+          </p>
+        </div>
+      </footer>
+</body>
+</html>
