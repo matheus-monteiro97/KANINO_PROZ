@@ -122,7 +122,7 @@ h2{
 }
 
 #msg{
-    font-family: Montserrat;
+    font-family: Arial, sans-serif;
     color: #2B4E96;
     font-size: 25px;
     line-height: 25pt;
@@ -147,7 +147,7 @@ h2{
 }
 .search-box {
     padding: 1% 1%;
-    font-family: Montserrat;
+    font-family: Arial, sans-serif;
     color: #2B4E96;
     width: 50%;
     border: 1px solid #989796;
@@ -156,7 +156,7 @@ h2{
 }
 .search-button {
     padding: 1% 2%;
-    font-family: Montserrat;
+    font-family: Arial, sans-serif;
     background-color: #2B4E96;
     color: #FFFDD0;
     border: none;
@@ -208,11 +208,21 @@ footer {
 }
 
 .valores p, .quem p, .missao p  {
+    font-family: Arial, sans-serif;
     width: auto;
     padding: 1%;
     max-width: 100%;
-    text-align: center;
+    text-align: justify;
 }
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    color: black;
+}
+  
 
 /* Estilos para o carrossel de depoimentos */
 .client-name {
@@ -321,7 +331,7 @@ main {
 
 .depoimento {
     padding: 1% 1%;
-    font-family: Montserrat;
+    font-family: Arial, sans-serif;
     color: #2B4E96;
     width: 95%;
     margin-left: 1%;
@@ -337,7 +347,7 @@ main {
     color: #2B4E96;
     padding: 1% 1%;
     margin-left: 1%;
-    font-family: Montserrat;
+    font-family: Arial, sans-serif;
     width: 95%;
     border: 1px solid #989796;
     border-radius: 10px 10px 0 0;
@@ -347,7 +357,7 @@ main {
 .dep-button {
     padding: 1% 2%;
     margin-top: 1%;
-    font-family: Montserrat;
+    font-family: Arial, sans-serif;
     background-color: #2B4E96;
     color: #FFD994;
     border: none;
