@@ -7,6 +7,7 @@
 <link rel="shortcut icon" href="../imagens/kaninologo.png" type="image/x-icon">
 <link rel="stylesheet" type="text/css" href="../libs/slick-1.8.1/slick/slick.css"/>
 <link rel="stylesheet" type="text/css" href="../libs/slick-1.8.1/slick/slick-theme.css"/>
+<script type="text/javascript" src="./javaScript/script.js"></script>
 <title>Depoimentos</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
     <div id="cor1">
     <!--<h1>KANINO</h1>-->
       <p id="msg">O lugar perfeito para os seus amigos peludos!</p>
-      <a id="entrar" href="/cadastro/index.html">Entrar</a>
+      <a id="entrar" href="/login/login.html">Entrar</a>
       <a>/</a>                  
       <a id="cadastrar" href="/cadastro/index.html">Cadastrar</a>
       <div class="search-container">
@@ -30,7 +31,7 @@
     <nav> 
         <a id="home" href="../index.html">Home</a>
         <a id="depoimento" href="/depoimentos/depoimentos.html">Depoimentos</a>
-        <a id="busca" href="../index.html">Veterinarios</a>
+        <a id="busca" href="../busca/busca.html">Veterinarios</a>
         <a id="duvida" href="../duvidas/duvidas.html">Duvidas</a>
     </nav>
   </header>
@@ -53,9 +54,9 @@
     <div class="depoimentos">
         <h1 class="dep">Deixar depoimento</h1>
         <form action="/postar" method="push">
-            <input type="text" class="nome" name="nome" placeholder="Informe seu nome">
-            <input type="text" class="depoimento" name="q" placeholder="Deixe seu depoimeto aqui...">
-            <button type="submit" class="dep-button">Enviar</button>
+            <input id="meuInput" type="text" class="nome" name="nome" placeholder="Informe seu nome">
+            <input id="meuInput2" type="text" class="depoimento" name="q" placeholder="Deixe seu depoimeto aqui...">
+            <button onclick="guardarValor()" type="submit" class="dep-button">Enviar</button>
         </form>
     </div>
   </main>

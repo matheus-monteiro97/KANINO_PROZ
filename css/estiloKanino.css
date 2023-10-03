@@ -44,9 +44,9 @@ nav a {
     border-radius: 10%;
 }   
 
-#home, #depoimento, #busca, #duvida{
+#home, #depoimento, #duvida, #busca{
     display: flex;
-    padding: 1% 4%;
+    padding: 1% 5%;
     font-family: cooper;
     font-size: 100%;
     background-color: #FFD994;
@@ -70,9 +70,9 @@ nav a {
 }
 */
 
-#home:hover, #depoimento:hover, #busca:hover, #duvida:hover{
+#home:hover, #depoimento:hover, #duvida:hover, #busca:hover{
     display: flex;
-    padding: 1% 4%;
+    padding: 1% 5%;
     font-family: cooper;
     font-size: 100%;
     background-color: #FFD994;
@@ -241,7 +241,7 @@ main {
 
 .container {
     width: 350px;
-    margin: 0 auto;
+    margin: 1cm auto;
     background-color: white;
     border: 1px solid #ccc;
     padding: 20px;
@@ -492,11 +492,7 @@ article p {
 .resposta {
     display: none;
     padding: 10px;
-    margin-top: 10px;
 
-}
-.espaco-resposta {
-    margin-top: 10px;
 }
 #blog {
     padding: 5px;

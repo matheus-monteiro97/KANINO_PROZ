@@ -6,3 +6,12 @@ $(document).ready(function(){
         autoplaySpeed: 3000, // Intervalo de tempo entre os slides (em milissegundos)
     });
 });
+
+function guardarValor() {
+    var inputElement = document.getElementById("meuInput");
+    var inputElement2 = document.getElementById("meuInput2");
+    var valorInput = inputElement.value;
+    var valorinput2 = inputElement2.value;
+    var meuValor = valorInput + " - " + valorinput2;
+    alert("Valor inserido: " + meuValor);
+}
